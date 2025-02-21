@@ -13,6 +13,7 @@ body{
 }
 .search{
     width:100%;
+    /* margin-top:25px; */
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -28,4 +29,31 @@ body{
     flex:1;
     margin-right:16px;
     font-size:18px;
+}
+
+.photo-icon{
+    width:220px;
+    height:200px;
+    margin-top:30px;
+}
+.photo h1{
+    font-size:45px;
+    font-weight:400;
+    margin-top:-10px;
+}
+.details{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+    margin-top:50px;
+}
+.col{
+    display:flex;
+    align-items:center;
+    text-align:left;
+}
+.col img{
+    width:40px;
+    margin-right:10px;
 }
